@@ -1,0 +1,12 @@
+%title{
+    text-align: center;
+    color:$text-color;
+    
+    @include text-style(600,36px);
+    letter-spacing:5px;
+}
+%bar{
+	@include size(50px,5px);
+    background-color: rgba(19,46,78,0.4);
+    margin: 5px auto;
+}
